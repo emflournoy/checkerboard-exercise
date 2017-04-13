@@ -13,11 +13,10 @@ function makeTiles(){
     tile.style.float = "left";
     tile.style.paddingBottom = "11.1%";
     tile.style.width = "11.1%";
-    tile.style.class = "linear-gradient"
     var color = getRandomColor();
     tile.style.backgroundColor= color;
     tile.style.opacity = '.5'
-    body.style.background = "linear-gradient(20deg, red, blue)";
+    body.style.background = "linear-gradient(20deg, yellow, blue)";
     body.appendChild(tile);
   }
 }
